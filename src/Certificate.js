@@ -1,9 +1,9 @@
 import { Card, CardGroup, Jumbotron, Modal, Button, Image } from "react-bootstrap";
 import React, { useEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import M1 from './asset/M1.jpg';
-import M2 from './asset/M2.jpg';
-import IC3 from './asset/ic3.jpg';
+import M1 from './asset/M1.png';
+import M2 from './asset/M2.png';
+import IC3 from './asset/ic3.png';
 import MC from './asset/MC1.JPG';
 import MCS from './asset/MCS1.JPG';
 import IC31 from './asset/IC31.JPG';
