@@ -75,18 +75,14 @@ export default function Certificate() {
                     </Col>
                 </Row>
                 <Modal centered size="lg" show={show} onHide={handleClose}>
-                    <Modal.Header closeButton>
-                    </Modal.Header>
+                    {/* <Modal.Header closeButton>
+                    </Modal.Header> */}
                     <Modal.Body><Image src={MC} fluid /></Modal.Body>
                 </Modal>
                 <Modal centered size="lg" show={show2} onHide={handleClose2}>
-                    <Modal.Header closeButton>
-                    </Modal.Header>
                     <Modal.Body><Image src={MCS} fluid /></Modal.Body>
                 </Modal>
                 <Modal centered size="lg" show={show3} onHide={handleClose3}>
-                    <Modal.Header closeButton>
-                    </Modal.Header>
                     <Modal.Body className="show-grid">
                         <Container>
                             <Row className="text-center">
