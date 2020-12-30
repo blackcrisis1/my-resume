@@ -17,7 +17,7 @@ export default function About() {
         And I hope to use what I learn as much as possible.
         </p>
         <p>
-          <Button variant="primary" href="#cer">Hire me!!</Button>
+          <Button variant="primary" href="#cer">Hire me!</Button>
         </p>
       </Jumbotron>
       </Container>
