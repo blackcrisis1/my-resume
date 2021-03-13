@@ -20,7 +20,7 @@ export default function Skills() {
                             <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                                 <div>
                                     <h3 class="mb-3 text-md-left">Programming Language</h3>
-                                    <div class="text-md-left"><FontAwesomeIcon icon={['fas', 'check-circle']} color="#1dd1a1" /> C# / VB.NET / Java</div>
+                                    <div class="text-md-left"><FontAwesomeIcon icon={['fas', 'check-circle']} color="#1dd1a1" /> C# / Java</div>
                                     <div class="text-md-left"><FontAwesomeIcon icon={['fas', 'check-circle']} color="#1dd1a1" /> HTML / PHP</div>
                                     <div class="text-md-left"><FontAwesomeIcon icon={['fas', 'check-circle']} color="#1dd1a1" /> Bootstrap / CSS</div>
                                     <div class="text-md-left"><FontAwesomeIcon icon={['fas', 'check-circle']} color="#1dd1a1" /> MySQL</div>
