@@ -24,7 +24,7 @@ export default function Navi() {
                     <Nav.Link href="#about">About</Nav.Link>
                     <Nav.Link href="#cer">Certificate</Nav.Link>
                     <Nav.Link href="#edu">Education</Nav.Link>
-                    <Nav.Link href="#con">Contact</Nav.Link>
+                    <Nav.Link href="#skills">Skills</Nav.Link>
                     {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                         <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                         <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
@@ -37,6 +37,7 @@ export default function Navi() {
                     <Nav.Link href="https://www.facebook.com/jokung.nakubpom" target="_blank"><FontAwesomeIcon icon={['fab', 'facebook']} color="#3b5998"/></Nav.Link>
                     <Nav.Link href="https://twitter.com/jojo_sku" target="_blank"><FontAwesomeIcon icon={['fab', 'twitter']} color="#00acee"/></Nav.Link>
                     <Nav.Link href="mailto: jo.saksith@hotmail.com"><FontAwesomeIcon icon={['fas', 'envelope']} color="#FBBC05" /></Nav.Link>
+                    <Nav.Link href="tel:063-313-0493">063-313-0493</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

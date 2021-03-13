@@ -76,11 +76,29 @@ html {
   position: relative;
 }
 .bg-cer {
-  background-image: url("./asset/bg1.jpg");
+  /* background-image: url("./asset/bg1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  position: relative; */
+  background-color: #ecf0f1;
+}
+
+.bg-edu {
+  /* background-image: url("./asset/rmutkbg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; */
+}
+
+.bg-skill {
+  /* background-image: url("./asset/rmutkbg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; */
+  background-color: #ecf0f1;
 }
 
 #home {

@@ -5,16 +5,21 @@ import About from './About.js';
 import Certificate from './Certificate.js';
 import Fter from './footer.js';
 import { Container, Row, Col } from "react-bootstrap";
+import Edu from './Edu';
+import Skills from './Skills';
 
 function App() {
   return (
     <>
-    <Navi />
-    <hr class="m-0"></hr>
-    <About />
-    <hr class="m-0"></hr>
-    <Certificate />
-    <hr class="m-0"></hr>
+      <Navi />
+      <hr class="m-0"></hr>
+      <About />
+      <hr class="m-0"></hr>
+      <Certificate />
+      <hr class="m-0"></hr>
+      <Edu />
+      <hr class="m-0"></hr>
+      <Skills />
     </>
     // <div className="App">
     //   

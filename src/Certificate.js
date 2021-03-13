@@ -25,9 +25,9 @@ export default function Certificate() {
         <section className="bg-cer">
         <Container>
             <Jumbotron className="jumbotron text-center m-0 bg-rlight d-flex flex-column justify-content-center" id="cer">
-            <h1><span id="ncolor">MY</span> CERTIFICATE</h1>
+            <h1 className="m-5"><span id="ncolor">MY</span> CERTIFICATE</h1>
             <br />
-                <Row id="edu">
+                <Row>
                     <Col sm className="CardDE">
                         <CardGroup>
                             <Card className="m1">
