@@ -19,6 +19,9 @@ import M2 from './asset/M2.png';
 import IC3 from './asset/ic3.png';
 import UTK from './asset/LRMUTK.png';
 import NP from './asset/NBAC.png';
+import React, { Component, useEffect } from "react";
+import { init } from "ityped";
+
 
 // function App() {
 //   return (
@@ -54,11 +57,19 @@ const App = () => {
   const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
   const FadeUp = batch(Fade(), Move(), Sticky());
 
+  useEffect(()=>{
+    const myElement = document.querySelector("#myElement");
+    init(myElement, {
+      showCursor: false,
+      strings: ["SAKSITH UPPHAKARAKUL"]
+    });
+  },[])
+
   return (
     <ScrollContainer>
       <ScrollPage page={0}>
         <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
-          <div className="text-center"><span style={{ fontSize: "3em" }}>SAKSITH UPPHAKARAKUL</span></div>
+          <div className="text-center"><span id="myElement" style={{ fontSize: "3em" }}></span></div>
           <div className="text-center">
             <p style={{ fontSize: "1em" }}>
               I am senior student in major of Computer Science at Rajamangala University of Technology Krungthep. I'm interested in Web Front-End developers.
@@ -78,11 +89,11 @@ const App = () => {
         <Animator animation={FadeUp}>
           <Container>
             <Col sm className="CardDE">
-            <div data-iframe-width="210" data-iframe-height="270" data-share-badge-id="b76600b5-cca0-449e-8e79-0df0097c53cb" data-share-badge-host="https://www.youracclaim.com"></div>
-            <div data-iframe-width="210" data-iframe-height="270" data-share-badge-id="67087c57-d784-446d-87eb-6b1cf4df9a5b" data-share-badge-host="https://www.youracclaim.com"></div>
-            <br />
-            <div data-iframe-width="210" data-iframe-height="270" data-share-badge-id="9a2b5ad8-cb44-4de5-bda3-7d0508ee0713" data-share-badge-host="https://www.youracclaim.com"></div>
-            <div data-iframe-width="210" data-iframe-height="270" data-share-badge-id="03dede0f-2018-4004-8220-240c69dc16a0" data-share-badge-host="https://www.youracclaim.com"></div>
+              <div data-iframe-width="210" data-iframe-height="270" data-share-badge-id="b76600b5-cca0-449e-8e79-0df0097c53cb" data-share-badge-host="https://www.youracclaim.com"></div>
+              <div data-iframe-width="210" data-iframe-height="270" data-share-badge-id="67087c57-d784-446d-87eb-6b1cf4df9a5b" data-share-badge-host="https://www.youracclaim.com"></div>
+              <br />
+              <div data-iframe-width="210" data-iframe-height="270" data-share-badge-id="9a2b5ad8-cb44-4de5-bda3-7d0508ee0713" data-share-badge-host="https://www.youracclaim.com"></div>
+              <div data-iframe-width="210" data-iframe-height="270" data-share-badge-id="03dede0f-2018-4004-8220-240c69dc16a0" data-share-badge-host="https://www.youracclaim.com"></div>
             </Col>
           </Container>
         </Animator>
@@ -127,16 +138,6 @@ const App = () => {
           </Container>
         </Animator>
       </ScrollPage>
-      {/* <ScrollPage page={3}>
-        <div style={FlexCenterStyle}>
-          <span style={{ fontSize: "3em" }}>
-            <Animator animation={MoveIn(-1000, 0)}>MY INTERESTS</Animator>
-            <Animator animation={MoveIn(1000, 0)}>Frontend web developer 💻</Animator>
-            <Animator animation={MoveOut(1000, 0)}>Web Designer 🎨</Animator>
-            <Animator animation={MoveOut(-1000, 0)}>UX/UI Graphic Designer</Animator>
-          </span>
-        </div>
-      </ScrollPage> */}
       <ScrollPage page={5}>
         <Animator animation={ZoomInScrollOut}>
           <span style={{ fontSize: "3em" }}>SKILLS</span>
@@ -207,7 +208,7 @@ const App = () => {
           </Animator>
           <br />
           <Animator animation={MoveIn(-1000, 0)}>
-            <a href="https://twitter.com/jojo_sku" target="_blank"><FontAwesomeIcon icon={['fab', 'twitter']} color="#00acee"/><span style={{ color: "black" }}> ᴊᴏᴊᴏsᴋᴜ </span></a>
+            <a href="https://twitter.com/jojo_sku" target="_blank"><FontAwesomeIcon icon={['fab', 'twitter']} color="#00acee" /><span style={{ color: "black" }}> ᴊᴏᴊᴏsᴋᴜ </span></a>
           </Animator>
           <br />
           <Animator animation={MoveIn(1000, 0)}>
