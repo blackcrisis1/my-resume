@@ -78,40 +78,11 @@ const App = () => {
         <Animator animation={FadeUp}>
           <Container>
             <Col sm className="CardDE">
-              <CardGroup>
-                <Card className="m1">
-                  <Card.Img variant="top" src={M1} className="image" />
-                  <Card.Body>
-                    <Card.Title>MICROSOFT OFFICE SPECIALIST</Card.Title>
-                    <Card.Text>
-                      - Microsoft Office Word 2013
-      </Card.Text>
-                  </Card.Body>
-                  {/* <Card.Footer>
-                                    <small className="text-muted">See Detail</small>
-                                </Card.Footer> */}
-                </Card>
-                <Card className="m1">
-                  <Card.Img variant="top" src={M2} className="image" />
-                  <Card.Body>
-                    <Card.Title>MICROSOFT TECHNOLOGY ASSOCIATE</Card.Title>
-                    <Card.Text>
-                      - Database Administration Fundamentals
-        content.{' '}
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-                <Card className="m1">
-                  <Card.Img variant="top" src={IC3} className="image" />
-                  <Card.Body>
-                    <Card.Title>IC3 DIGITAL LITERACY CERTIFICATION</Card.Title>
-                    <Card.Text>
-                      - IC3 Computing Fundamentals - Global Standard 5
-                                        <br />- IC3 Key Applications - Global Standard 5
-      </Card.Text>
-                  </Card.Body>
-                </Card>
-              </CardGroup>
+            <div data-iframe-width="210" data-iframe-height="270" data-share-badge-id="b76600b5-cca0-449e-8e79-0df0097c53cb" data-share-badge-host="https://www.youracclaim.com"></div>
+            <div data-iframe-width="210" data-iframe-height="270" data-share-badge-id="67087c57-d784-446d-87eb-6b1cf4df9a5b" data-share-badge-host="https://www.youracclaim.com"></div>
+            <br />
+            <div data-iframe-width="210" data-iframe-height="270" data-share-badge-id="9a2b5ad8-cb44-4de5-bda3-7d0508ee0713" data-share-badge-host="https://www.youracclaim.com"></div>
+            <div data-iframe-width="210" data-iframe-height="270" data-share-badge-id="03dede0f-2018-4004-8220-240c69dc16a0" data-share-badge-host="https://www.youracclaim.com"></div>
             </Col>
           </Container>
         </Animator>
