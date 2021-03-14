@@ -60,8 +60,8 @@ const App = () => {
   useEffect(()=>{
     const myElement = document.querySelector("#myElement");
     init(myElement, {
-      showCursor: false,
-      strings: ["SAKSITH UPPHAKARAKUL"]
+      showCursor: true,
+      strings: ["SAKSITH UPPHAKARAKUL","© Saksith U, 20/01/2021"]
     });
   },[])
 
@@ -216,7 +216,7 @@ const App = () => {
           </Animator>
           <br />
           <Animator animation={MoveIn(-1000, 0)}>
-            <a href="tel:063-313-0493"><FontAwesomeIcon icon={['fas', 'phone']} color="#636e72" /><span style={{ color: "black" }}> 063-313-0493 </span></a>
+            <a href="tel:063-313-0493"><FontAwesomeIcon icon={['fas', 'phone']} color="#636e72" /><span style={{ color: "black" }}> (+66) 63-313-0493 </span></a>
           </Animator>
         </Animator>
       </ScrollPage>
