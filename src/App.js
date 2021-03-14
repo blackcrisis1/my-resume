@@ -76,7 +76,7 @@ const App = () => {
       </ScrollPage>
       <ScrollPage page={2}>
         <Animator animation={FadeUp}>
-          <Row>
+          <Container>
             <Col sm className="CardDE">
               <CardGroup>
                 <Card className="m1">
@@ -113,7 +113,7 @@ const App = () => {
                 </Card>
               </CardGroup>
             </Col>
-          </Row>
+          </Container>
         </Animator>
       </ScrollPage>
       <ScrollPage page={3}>
@@ -123,7 +123,7 @@ const App = () => {
       </ScrollPage>
       <ScrollPage page={4}>
         <Animator animation={FadeUp}>
-          <Row>
+          <Container>
             <Col xs className="CardDE">
               <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div>
@@ -134,12 +134,12 @@ const App = () => {
 
                 </div>
                 <div class="text-md-right">
-                  <span><Image src={UTK} width="63px" height="112px" fluid /></span>
+                  <span><Image src={UTK} width="90px" height="90px" fluid /></span>
                 </div>
               </div>
             </Col>
-          </Row>
-          <Row>
+          </Container>
+          <Container>
             <Col xs className="CardDE">
               <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div>
@@ -153,7 +153,7 @@ const App = () => {
                 </div>
               </div>
             </Col>
-          </Row>
+          </Container>
         </Animator>
       </ScrollPage>
       {/* <ScrollPage page={3}>
@@ -173,11 +173,10 @@ const App = () => {
       </ScrollPage>
       <ScrollPage page={6}>
         <Animator animation={batch(Fade(), Sticky())}>
-          <Row>
+          <Container class="tableskill">
             <Animator animation={MoveIn(-1000, 0)}>
-              <Col xs className="CardDE">
+              <Container xs className="CardDE">
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-
                   <div>
                     <h3 class="mb-3 text-md-left">Programming Language</h3>
                     <div class="text-md-left"><FontAwesomeIcon icon={['fas', 'check-circle']} color="#1dd1a1" /> C# / Java</div>
@@ -186,32 +185,32 @@ const App = () => {
                     <div class="text-md-left"><FontAwesomeIcon icon={['fas', 'check-circle']} color="#1dd1a1" /> MySQL</div>
                   </div>
                 </div>
-              </Col>
+              </Container>
             </Animator>
             <Animator animation={MoveIn(1000, 0)}>
-              <Col xs className="CardDE">
+              <Container xs className="CardDE">
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                   <div>
                     <h3 class="mb-3 text-md-left">DESIGN</h3>
                     <div class="text-md-left"><FontAwesomeIcon icon={['fas', 'check-circle']} color="#1dd1a1" /> UI / UX Design with Adobe Photoshop / Affinity Designer</div>
                   </div>
                 </div>
-              </Col>
+              </Container>
             </Animator>
-          </Row>
-          <Row>
+          </Container>
+          <Container class="tableskill">
             <Animator animation={MoveIn(-1000, 0)}>
-              <Col xs className="CardDE">
+              <Container xs className="CardDE">
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                   <div>
                     <h3 class="mb-3 text-md-left">OFFICE</h3>
                     <div class="text-md-left"><FontAwesomeIcon icon={['fas', 'check-circle']} color="#1dd1a1" /> Microsoft Office (Word, Excel, PowerPoint)</div>
                   </div>
                 </div>
-              </Col>
+              </Container>
             </Animator>
             <Animator animation={MoveIn(1000, 0)}>
-              <Col xs className="CardDE">
+              <Container xs className="CardDE">
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                   <div>
                     <h3 class="mb-3 text-md-left">INTERESTS</h3>
@@ -220,9 +219,9 @@ const App = () => {
                     <div class="text-md-left"><FontAwesomeIcon icon={['fas', 'check-circle']} color="#1dd1a1" /> UX/UI Graphic Designer</div>
                   </div>
                 </div>
-              </Col>
+              </Container>
             </Animator>
-          </Row>
+          </Container>
         </Animator>
       </ScrollPage>
       <ScrollPage page={7}>
