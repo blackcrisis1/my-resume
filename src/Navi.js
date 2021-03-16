@@ -21,10 +21,10 @@ export default function Navi() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto text-center">
-                    {/* <Nav.Link href="#about">About</Nav.Link>
+                    <Nav.Link href="#about">About</Nav.Link>
                     <Nav.Link href="#cer">Certificate</Nav.Link>
                     <Nav.Link href="#edu">Education</Nav.Link>
-                    <Nav.Link href="#skills">Skills</Nav.Link> */}
+                    <Nav.Link href="#skills">Skills</Nav.Link>
                     {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                         <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                         <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
