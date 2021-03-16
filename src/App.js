@@ -87,6 +87,7 @@ const App = () => {
       </ScrollPage>
       <ScrollPage page={2}>
         <Animator animation={FadeUp}>
+        <br></br>
           <Container>
             <Col sm className="CardDE">
               <CardGroup>
@@ -139,6 +140,7 @@ const App = () => {
       </ScrollPage>
       <ScrollPage page={4}>
         <Animator animation={FadeUp}>
+        <br></br>
           <Container>
             <Col xs className="CardDE">
               <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
@@ -179,6 +181,7 @@ const App = () => {
       </ScrollPage>
       <ScrollPage page={6}>
         <Animator animation={batch(Fade(), Sticky())}>
+          <br></br>
           <Container class="tableskill">
             <Animator animation={MoveIn(-1000, 0)}>
               <Container xs className="CardDE">
@@ -232,6 +235,7 @@ const App = () => {
       </ScrollPage>
       <ScrollPage page={7}>
         <Animator animation={ZoomInScrollOut}>
+          <br></br>
           <span style={{ fontSize: "3em" }}>CONTACT</span>
         </Animator>
       </ScrollPage>
