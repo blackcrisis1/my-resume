@@ -80,6 +80,7 @@ const App = () => {
           <div className="text-center"><FontAwesomeIcon icon={['fa', 'chevron-down']} color="#1dd1a1" /></div>
         </Animator>
       </ScrollPage>
+      <br /><br /><br />
       <ScrollPage page={1}>
         <Animator animation={ZoomInScrollOut}>
           <span style={{ fontSize: "3em" }}>MY CERTIFICATE</span>
@@ -132,6 +133,7 @@ const App = () => {
           </Container>
         </Animator>
       </ScrollPage>
+      <br /><br /><br />
       <ScrollPage page={3}>
         <Animator animation={ZoomInScrollOut}>
           <span style={{ fontSize: "3em" }}>EDUCATION</span>
@@ -172,6 +174,7 @@ const App = () => {
           </Container>
         </Animator>
       </ScrollPage>
+      <br /><br /><br />
       <ScrollPage page={5}>
         <Animator animation={ZoomInScrollOut}>
           <span style={{ fontSize: "3em" }}>SKILLS</span>
@@ -230,6 +233,7 @@ const App = () => {
           </Container>
         </Animator>
       </ScrollPage>
+      <br /><br /><br />
       <ScrollPage page={7}>
         <Animator animation={ZoomInScrollOut}>
           <span style={{ fontSize: "3em" }}>CONTACT</span>
